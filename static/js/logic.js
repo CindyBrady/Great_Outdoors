@@ -1,5 +1,5 @@
 // Link to get the geojson data.
-var url = "static/data/mapdata.geojson";
+var url = "../Heroku_Deployment/Starter/static/data/mapdata.geojson";
 
 // Grabbing our GeoJSON data.
 d3.json(url, function(data) {
@@ -69,13 +69,17 @@ d3.json(url, function(data) {
   
 
     // //Add MapCenterCoord that allows touch/mobile friendly navigation
-    // L.control.mapCenterCoord({
-    //   latlngFormat: 'DM',
-    //   latlngDesignators: true
-    // }).addTo(myMap);
+    L.control.mapCenterCoord({
+      latlngFormat: 'DM',
+      latlngDesignators: true
+    }).addTo(myMap);
 
     // Create a layer control, pass in our baseMaps/overlayMaps, add layer control
     L.control.layers(baseMaps, overlayMaps, {
       collapsed: false
     }).addTo(myMap);
   }
+  
+
+
+
