@@ -1,8 +1,8 @@
 # Great_Outdoors						
 ![mountain](static/images/mountain.jpg)
 
-About									Visit for our Heroku site [here](https://great-outdoors.herokuapp.com/).
-
+About									
+Visit for our Heroku site [here](https://great-outdoors.herokuapp.com/)
 Our group chose to use mock data from a store, The Great Outdoors. The dataset contains store information, product information, recent orders, store location, and sales and revenue figures. We stored the data in a SQLite database and utilized the database to create a flask app.
 
 # Leaflet
