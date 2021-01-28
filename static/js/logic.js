@@ -1,5 +1,5 @@
 // Link to get the geojson data.
-var url = "static/data/mapdata.geojson";
+var url = "../static/data/mapdata.geojson";
 
 // Grabbing our GeoJSON data.
 d3.json(url, function(data) {
