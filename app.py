@@ -10,7 +10,7 @@ def dashboard():
   return render_template("dashboard.html")
 
 @app.route("/")
-def home():
+def map():
   return render_template("map.html")
   
 if __name__ == "__main__":
