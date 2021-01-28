@@ -1,4 +1,4 @@
-# Great_Outdoors					Visit the url for our Heroku site [here](https://great-outdoors.herokuapp.com/).
+# Great_Outdoors						##Visit for our Heroku site [here](https://great-outdoors.herokuapp.com/).
 
 ![mountain](static/images/mountain.jpg)
 
