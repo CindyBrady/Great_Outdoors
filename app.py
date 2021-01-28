@@ -12,6 +12,10 @@ def dashboard():
 @app.route("/map/")
 def map():
   return render_template("map.html")
+
+@app.route("/D3/")
+def D3():
+  return render_template("D3.html")
   
 if __name__ == "__main__":
   app.run(debug=True)
