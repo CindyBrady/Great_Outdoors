@@ -9,7 +9,7 @@ def home():
 def dashboard():
   return render_template("dashboard.html")
 
-@app.route("/")
+@app.route("/map/")
 def map():
   return render_template("map.html")
   
